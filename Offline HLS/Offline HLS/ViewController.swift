@@ -99,7 +99,7 @@ class ViewController: UIViewController {
         controller.dialogContent = content
         controller.onDissmis = onDissmis
         
-        controller.attachTo(self)
+        controller.attachTo(self.navigationController!)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
