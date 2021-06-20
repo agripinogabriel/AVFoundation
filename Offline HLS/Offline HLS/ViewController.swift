@@ -121,6 +121,8 @@ extension ViewController: AVAssetDownloadDelegate {
         }
         
         progress.progress = Float(percenteComplete)
+        
+        print("[Offline HLS] Download \(percenteComplete*100) completed")
     }
     
     func urlSession(_ session: URLSession, assetDownloadTask: AVAssetDownloadTask, didFinishDownloadingTo location: URL) {
