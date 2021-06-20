@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         let hlsAsset = AVURLAsset(url: url)
         
-        let backgroundConfiguration = URLSessionConfiguration.background(withIdentifier: "assetDownloadConfigurationIdentifier")
+        let backgroundConfiguration = URLSessionConfiguration.background(withIdentifier: "assetDownloadConfigurationIdentifier \(Date().timeIntervalSince1970)")
         let assetURLSession = AVAssetDownloadURLSession(
             configuration: backgroundConfiguration,
             assetDownloadDelegate: self,
