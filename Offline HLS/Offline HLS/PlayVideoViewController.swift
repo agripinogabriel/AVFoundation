@@ -19,7 +19,6 @@ class PlayVideoViewController: UIViewController {
         
         playVideo.isEnabled = false
         playVideo.backgroundColor = playVideo.backgroundColor?.withAlphaComponent(0.6)
-        playerView.backgroundColor = .clear
     }
 }
 

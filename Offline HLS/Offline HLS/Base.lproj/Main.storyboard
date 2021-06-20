@@ -117,7 +117,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajo-uh-sG8">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="220"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.15960911342075892" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="220" id="04X-iO-iBs"/>
                                         </constraints>
